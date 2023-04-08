@@ -1,3 +1,15 @@
+
+
+# Intellij IDE settings dir
+.idea
+
+
+# When using .gitkeep for dirs like /secrets/ the order of the two entires is important.
+# This comes first: directory/*    Then this !directory/.gitkeep    Like this:
+secrets/*
+!secrets/.gitkeep
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -82,7 +94,8 @@ profile_default/
 ipython_config.py
 
 # pyenv
-.python-version
+# I choose to store the .python-version file in the repo and I include instructions for a pre-configure V.E. setup.
+#.python-version
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.

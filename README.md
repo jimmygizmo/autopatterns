@@ -6,7 +6,7 @@ facilities like REST, Docker, cron, ssh and more.
 
 A focus in this repository is on using cron to trigger python programs and utilities which have well-designed command-line interfaces.
 This will be combined with using classic/foundational strategies as basic as smart filesystem heirarchies and file usage or powerful naming
-conventions and many such things where a lot of power can be obtained from simple strategies that leverage baseic technologies.
+conventions and many such things where a lot of power can be obtained from simple strategies that leverage basic technologies.
 
 REST APIs, client and server in Python, containerization via Docker or Podman, the full spectrum of the power of Linux .. these are all areas
 central to different kinds of automation and very common, ad-hoc systems and solutions you find everywhere.

@@ -1,0 +1,18 @@
+Comparison of argument-parsing libraries for writing command-line programs: argparse, click, docopt
+
+
+ArgParse
+commander-ap.py
+
+Click
+commander-cl.py
+
+DocOpt
+commander-do.py
+
+Each example works similarly or identically and has two commands 'green' and 'blue'.
+The target of any command is the main argument, which is the last argument.
+Options may also be passed.
+
+TODO: Add options support and mention it here.
+

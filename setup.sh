@@ -6,10 +6,15 @@
 
 # pyenv virtualenv 3.11.2 ve.autopat
 
-
+# Pip and Setuptools both come along with a fresh virtual environment and they ALWAYS need immediate upgrading.
 pip install --upgrade pip
 pip install --upgrade setuptools
-pip install --upgrade wheel
+
+# Wheel enables installation of Python modules using native-compiled components, and more.
+pip install wheel
+
+# Pip-tools simplifies the management of version-pinned Python requirements for those following best practices.
+pip install pip-tools
 
 pip install -r requirements.txt
 

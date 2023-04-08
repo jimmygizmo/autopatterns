@@ -1,0 +1,28 @@
+# requirements.txt
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+argparse
+click
+docopt
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Command-line option lib, other misc libs here
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Pexpect is for 'classic' command-response (simulation of a manual operator) over SSH or telnet.
+#### pexpect
+
+# https://pexpect.readthedocs.io/en/stable/
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+# General Info - requirements.txt
+#### An entry commented-out like this with #### is temporarily disable, planned for future use, etc.
+
+# The pip-compile command from the piptools module is used to generate the requirements.txt file, based on the
+# modules specified here in requirements.in.
+

@@ -14,8 +14,8 @@ central to different kinds of automation and very common, ad-hoc systems and sol
 This is almost like a System-Adminisrator (in the classic sense) plus Python-coder tool kit of all kinds of common solutions which can often
 be labeled automation of one kind or another.
 
-I want this project to be kind of free form and full of lots of little goods, well organized in the repository. In this project, I will lean towards building solutions which work well, but with less documentation and comments than I usually put time into. At least at the early phase,
-I think it will be helpful to develop the project components and solutions rapidly and cover many areas, hence the sacrifice on docs initially. Automation development like this is very often done quickly and with less code and subject to change and evolve, so I will treat this project in a similar spirit.
+I want this project to be kind of free form and full of lots of little goodies, well-organized in the repository. In this project, I will lean towards building solutions which work well, but with less documentation and comments than I usually put time into. At least at the early phase,
+I think it will be helpful to develop the project components and solutions rapidly and cover many areas, hence the sacrifice on docs initially. Automation development like this is very often done quickly and with less code and subject to rapid evolution, so I will treat this project in a similar spirit.
 
 I will be doing plenty of experimentation and more creative-types of developement in this repo and will evaluate and compare some libraries and stuff
 like that. I will make it clear which parts are well developed/stable and which are more experimental.

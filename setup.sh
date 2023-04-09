@@ -13,7 +13,7 @@ pip install --upgrade setuptools
 # Wheel enables installation of Python modules using native-compiled components, and more.
 pip install wheel
 
-# Pip-tools simplifies the management of version-pinned Python requirements for those following best practices.
+# Pip-tools simplifies the management of version-pinned Python requirements.
 pip install pip-tools
 
 pip install -r requirements.txt

@@ -23,6 +23,7 @@ docopt
 # General Info - requirements.txt
 #### An entry commented-out like this with #### is temporarily disable, planned for future use, etc.
 
-# The pip-compile command from the piptools module is used to generate the requirements.txt file, based on the
+# The pip-compile command from the pip-tools module is used to generate the requirements.txt file, based on the
 # modules specified here in requirements.in.
+# https://pypi.org/project/pip-tools/
 

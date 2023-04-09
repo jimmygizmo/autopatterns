@@ -1,17 +1,39 @@
-
-
-# Project notes and work in progress
-todo/
+# .gitignore
 
 
 # Intellij IDE settings dir
-.idea
+.idea/
+
+
+# MacOS
+.DS_Store
 
 
 # When using .gitkeep for dirs like /secrets/ the order of the two entires is important.
 # This comes first: directory/*    Then this !directory/.gitkeep    Like this:
 secrets/*
 !secrets/.gitkeep
+# Later, we may add instructions for some specific usage of the secrets dir:
+#!secrets/about-secrets.txt
+
+
+# datavolume and dbvolume
+# Git will not add anything inside this directory except the .gitkeep file.
+# You can use zero-byte .gitkeep files as the minimal way to keep an empty directory in git.
+# These settings might be used if and when some docker containers are used.
+# These directories would be for db/data persistence and data sharing across containers.
+#datavolume/*
+#!datavolume/.gitkeep
+#dbvolume/*
+#!dbvolume/.gitkeep
+
+
+# Project notes and work in progress
+# Directory to briefly hold working files inside the project but not add them to git.
+# * Tell your IDE to exclude/ignore this directory to reduce indexing & inspection overhead.
+# In IntelliJ IDEs, this is called "Mark as Excluded".
+# This directory does not exist in the repository. You can optionally create it.
+todo/
 
 
 # Byte-compiled / optimized / DLL files
@@ -106,10 +128,12 @@ venv.bak/
 # mkdocs documentation
 /site
 
+
 # mypy
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
 
 # Pyre type checker
 .pyre/

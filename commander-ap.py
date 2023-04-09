@@ -5,23 +5,25 @@ import argparse
 # https://docs.python.org/3/library/argparse.html#other-utilities
 
 
-def blue(function_args):
-    print(f"Performing Blue command on target: {function_args.target_blue}")
+def blue(blue_args):
+    print(f"Performing Blue command on target: {blue_args.target_blue}")
 
 
-def green(function_args):
-    print(f"Performing Green command on target: {function_args.target_green}")
+def green(green_args):
+    print(f"Performing Green command on target: {green_args.target_green}")
 
 
 parser = argparse.ArgumentParser(
     prog="Commander-AP",
-    description="commander-ap.py is a demonstration of the argparse module.",
+    description="commander-ap.py is an argparse module usage example.",
 )
 
 
 # https://docs.python.org/3/library/argparse.html#other-utilities
 
 subparsers = parser.add_subparsers(help="sub-command help")
+# TODO: Consider: help output can be cleaner if this help argument is omitted.
+#  See bottom of page for link to more such tips.
 
 # Supply the name of the command, like this:  subparser.add_parser("command_name")
 
@@ -67,4 +69,8 @@ if __name__ == '__main__':
     # if args.verbose:
     #     print("Output will be verbose.")
     # print(args.target)
+
+
+# General tips on how to clean up ArgParse help output:
+# https://stackoverflow.com/questions/28895673/subcommand-alternative-to-argparse-and-optparse
 
